@@ -103,11 +103,28 @@
   <h2 id = "resume">Resume</h2>
     <div class = "resume-container">
       <img src="assets\images\Screenshot 2025-10-20 220829.png">
-      <button>Button</button>
     </div>
 
-  <h2 id = "contact">Contact</h2>
+    <div class = "resume-container">
+      <a href="files/Resume.pdf" class="button">Download</a>
+    </div>
 
+  <h2 id = "contact">Say hi!</h2>
+    <div class="contact-container">
+      <form action="https://formspree.io/f/mwprjyeg" method="POST" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea name="message" required></textarea>
+
+        <button type="submit" class="button">Send</button>
+      </form>
+    </div>
+  
   <footer class="site-footer">
     © Taraneh Rouhbakhsh Mirabi, 2025
   </footer>
